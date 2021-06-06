@@ -19,7 +19,7 @@ const Products = ({ title,company, imageSrc, price, currency, id, ideal, size })
             </ProductsPrice>
             
             <ProductsSizes>
-                Sizes: {size.map((size) => ( <span> {size} </span> ))}
+                {/* Sizes: {size.map((size) => ( <span> {size} </span> ))} */}
             </ProductsSizes>
         </ProductsContainer>
     )
